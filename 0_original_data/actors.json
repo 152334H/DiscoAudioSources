@@ -1,0 +1,3743 @@
+{
+  "actors": [
+    {
+      "actorId": 1,
+      "refId": "0x010000520000000D",
+      "name": "Fysique",
+      "shortDescription": "How well your body is built.",
+      "longDescription": "This would be a rather lengthened and interesting description of what Fysique does",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 2,
+      "refId": "0x0100005200000009",
+      "name": "Intellect",
+      "shortDescription": "Your capacity to reason.",
+      "longDescription": "This would be a rather lengthened and interesting description of what Intelligence does",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 3,
+      "refId": "0x0100005200000005",
+      "name": "Motorics",
+      "shortDescription": "How well you move your body.",
+      "longDescription": "This would be a rather lengthened and interesting description of what Motorics does",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 4,
+      "refId": "0x0100005200000001",
+      "name": "Psyche",
+      "shortDescription": "Your power to influence yourself and others.",
+      "longDescription": "This would be a rather lengthened and interesting description of what Psyche does",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 5,
+      "refId": "0x01000000000004FC",
+      "name": "Cuno",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 6,
+      "refId": "0x0100000000000500",
+      "name": "Cunoesse",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true,
+      "voice": null
+    },
+    {
+      "actorId": 7,
+      "refId": "0x010000000000053C",
+      "name": "Smoker on the Balcony",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 8,
+      "refId": "0x010000060000033F",
+      "name": "Novelty Dicemaker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true,
+      "voice": null
+    },
+    {
+      "actorId": 9,
+      "refId": "0x0100000900000002",
+      "name": "Sleeping Dockworker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 10,
+      "refId": "0x0100000900000265",
+      "name": "Lilienne, the Net Picker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true,
+      "voice": null
+    },
+    {
+      "actorId": 11,
+      "refId": "0x0100000900001971",
+      "name": "Racist lorry driver",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 12,
+      "refId": "0x0100000900001C3A",
+      "name": "Annette",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true,
+      "voice": null
+    },
+    {
+      "actorId": 13,
+      "refId": "0x01000004000012FB",
+      "name": "Acele",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true,
+      "voice": null
+    },
+    {
+      "actorId": 14,
+      "refId": "0x0100000B00000464",
+      "name": "Andre",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 15,
+      "refId": "0x0100000B00000468",
+      "name": "Noid",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 16,
+      "refId": "0x0100000B0000046C",
+      "name": "Egg Head",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 17,
+      "refId": "0x01000009000023B0",
+      "name": "Plaisance",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true,
+      "voice": null
+    },
+    {
+      "actorId": 18,
+      "refId": "0x01000014000003D0",
+      "name": "Scab",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 19,
+      "refId": "0x01000014000003D4",
+      "name": "Strikebreaker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 20,
+      "refId": "0x01000014000003D8",
+      "name": "Large Scab",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 21,
+      "refId": "0x01000014000003DC",
+      "name": "Unemployed Person",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 22,
+      "refId": "0x01000014000003E0",
+      "name": "Former Coal Miner",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 23,
+      "refId": "0x01000014000003E4",
+      "name": "Scabette",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 24,
+      "refId": "0x01000014000003E8",
+      "name": "Boy Strikebreaker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 25,
+      "refId": "0x01000014000003EC",
+      "name": "Banger Scab",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 26,
+      "refId": "0x01000014000003F0",
+      "name": "Alphonse the Scab",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 27,
+      "refId": "0x01000014000003F4",
+      "name": "Old Scab",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 28,
+      "refId": "0x01000014000003F8",
+      "name": "Mother of a Scab",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 29,
+      "refId": "0x01000014000003FC",
+      "name": "Right-to-Worker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 30,
+      "refId": "0x0100001400000400",
+      "name": "Probably a Migrant",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 31,
+      "refId": "0x0100001400000404",
+      "name": "Self-Educated Humanitarian",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 32,
+      "refId": "0x010000140000040C",
+      "name": "Job Market Loser",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 33,
+      "refId": "0x0100001400000410",
+      "name": "Very Hard to Exploit Handicapped Person",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false,
+      "voice": null
+    },
+    {
+      "actorId": 34,
+      "refId": "0x0100001400000418",
+      "name": "Another Scab",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 35,
+      "refId": "0x010000140000041C",
+      "name": "Sad Scab",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 36,
+      "refId": "0x0100001400000420",
+      "name": "Scab Leader",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 37,
+      "refId": "0x0100002F00008F79",
+      "name": "Women's Rights",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 38,
+      "refId": "0x010000140000046E",
+      "name": "Measurehead",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 39,
+      "refId": "0x0100001400000472",
+      "name": "Call Me Mañana",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 40,
+      "refId": "0x0100001400000476",
+      "name": "Harbour Worker",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 41,
+      "refId": "0x010000140000047A",
+      "name": "Striker",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 42,
+      "refId": "0x010000140000047E",
+      "name": "Lawyerly Guy",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 43,
+      "refId": "0x0100001400000482",
+      "name": "Loader",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 44,
+      "refId": "0x0100001400000486",
+      "name": "Union Man",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 45,
+      "refId": "0x010000140000048A",
+      "name": "Machinist",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 46,
+      "refId": "0x010000140000048E",
+      "name": "Bookkeeper",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 47,
+      "refId": "0x0100001400000492",
+      "name": "Unionista",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 48,
+      "refId": "0x0100001400000496",
+      "name": "Former Sailor",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 49,
+      "refId": "0x010000140000049A",
+      "name": "Union Veteran",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 50,
+      "refId": "0x010000140000049E",
+      "name": "Cleaning Woman",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 51,
+      "refId": "0x01000014000004A2",
+      "name": "Measurehead's Babe",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 52,
+      "refId": "0x01000014000004A6",
+      "name": "Union Rookie",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 53,
+      "refId": "0x0100001800001263",
+      "name": "Operator",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 54,
+      "refId": "0x0100002F00008F75",
+      "name": "Mysterious Pair of Eyes",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 55,
+      "refId": "0x0100007100002AFB",
+      "name": "Clubber Shahi",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 56,
+      "refId": "0x010000160000271F",
+      "name": "Tommy Le Homme",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 57,
+      "refId": "0x0100002C0000000E",
+      "name": "René Arnoux",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 58,
+      "refId": "0x0100002C00000012",
+      "name": "Gaston Martin",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 59,
+      "refId": "0x0100002B00000001",
+      "name": "Working Class Woman",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 60,
+      "refId": "0x0100002B00000022",
+      "name": "Working Class Drunk",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 61,
+      "refId": "0x010000040000B2A5",
+      "name": "Mack Torson",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 62,
+      "refId": "0x010000040000B2A9",
+      "name": "Chester McLaine",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 63,
+      "refId": "0x0100002F00002892",
+      "name": "Moneyman",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 64,
+      "refId": "0x01000031000061B9",
+      "name": "Jules Pidieu",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 65,
+      "refId": "0x01000031000061CA",
+      "name": "Alice",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 66,
+      "refId": "0x01000031000061D2",
+      "name": "Coupris Kineema",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 67,
+      "refId": "0x0100003100006B82",
+      "name": "Sylvie",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 68,
+      "refId": "0x0100002B00008376",
+      "name": "Sunday Friend",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 69,
+      "refId": "0x0100002B0001618A",
+      "name": "The Gardener",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 70,
+      "refId": "0x0100002B000244AA",
+      "name": "Gorący Kubek",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 71,
+      "refId": "0x0100002B00029DB2",
+      "name": "Frittte clerk",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 72,
+      "refId": "0x0100000400010F99",
+      "name": "Cindy the SKULL",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 73,
+      "refId": "0x010000310000AA15",
+      "name": "Video Revachol, 24h",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 74,
+      "refId": "0x0100002F000088BF",
+      "name": "Onomatopoetic Lorryman",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 75,
+      "refId": "0x0100002B00037BCD",
+      "name": "Siileng",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 76,
+      "refId": "0x01000004000115C2",
+      "name": "Game Over",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 77,
+      "refId": "0x0100002F000097CF",
+      "name": "Paledriver",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 78,
+      "refId": "0x0100002B00065084",
+      "name": "Tare Drunk",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 79,
+      "refId": "0x0100004C0000492D",
+      "name": "Easy Leo",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 80,
+      "refId": "0x0100004D00002929",
+      "name": "Bird's Nest Roy",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 81,
+      "refId": "0x0100002B0007DFEB",
+      "name": "Tricentennial Electrics",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 82,
+      "refId": "0x0100000000000559",
+      "name": "Ancient Reptilian Brain",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 83,
+      "refId": "0x0100000000000658",
+      "name": "Limbic System",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 84,
+      "refId": "0x0100000B00000CE6",
+      "name": "Spinal Cord",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 85,
+      "refId": "0x0100004D00003A96",
+      "name": "Man on water lock",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 86,
+      "refId": "0x0100002F0000DF43",
+      "name": "Washerwoman",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 87,
+      "refId": "0x0100002F0000EF4B",
+      "name": "Canal Crew",
+      "shortDescription": "Hardy canal workers.",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 88,
+      "refId": "0x0100002F0000EFD2",
+      "name": "Gary, the Cryptofascist",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 89,
+      "refId": "0x0100002F0000EFDA",
+      "name": "Idiot Doom Spiral",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 90,
+      "refId": "0x0100002F0000F10D",
+      "name": "Kortenaer",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 91,
+      "refId": "0x0100002F0000F111",
+      "name": "De Paule",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 92,
+      "refId": "0x0100002F0000F928",
+      "name": "Man with Sunglasses",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 93,
+      "refId": "0x0100002F0000F92C",
+      "name": "Horse-Faced Woman",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 94,
+      "refId": "0x0100002F0000F934",
+      "name": "Pissf****t",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 95,
+      "refId": "0x0100002F0000F938",
+      "name": "Fuck the World",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 96,
+      "refId": "0x0100002F0000F944",
+      "name": "Cleaning Lady",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 97,
+      "refId": "0x0100002F0000F948",
+      "name": "A Shadow on the Bed",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 98,
+      "refId": "0x0100002F0000F95C",
+      "name": "Don't Call Abigail",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 99,
+      "refId": "0x0100002F0000F960",
+      "name": "Rosemary",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 100,
+      "refId": "0x0100002F0000F964",
+      "name": "The Pigs",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 101,
+      "refId": "0x0100002F0000F968",
+      "name": "Little Lily",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 102,
+      "refId": "0x0100002F0000F988",
+      "name": "Working Class Husband",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 103,
+      "refId": "0x0100004C0000C042",
+      "name": "Titus Hardie",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 104,
+      "refId": "0x0100004C0000C048",
+      "name": "Fat Angus",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 105,
+      "refId": "0x0100004C0000C04C",
+      "name": "Theo",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 106,
+      "refId": "0x0100004C0000C050",
+      "name": "Glen",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 107,
+      "refId": "0x0100004C0000C054",
+      "name": "Shanky",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 108,
+      "refId": "0x0100004C0000C07A",
+      "name": "Eugene",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 109,
+      "refId": "0x0100004C0000C07E",
+      "name": "Alain",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 110,
+      "refId": "0x0100002F0000E4DC",
+      "name": "Elizabeth",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 111,
+      "refId": "0x010000060000032D",
+      "name": "Tiago",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 112,
+      "refId": "0x0100005700016E13",
+      "name": "East-Insulindian Repeater Station",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 113,
+      "refId": "0x0100004500018AA9",
+      "name": "Ruud Hoenkloewen",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 114,
+      "refId": "0x0100005A0000D9D3",
+      "name": "Mega Rich Light-Bending Guy",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 115,
+      "refId": "0x0100005A0000E6A1",
+      "name": "Netpicker's Twins",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 116,
+      "refId": "0x010000450001BBF9",
+      "name": "Lilienne's Twin",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 117,
+      "refId": "0x010000570001DFDF",
+      "name": "Real Estate Agent",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 118,
+      "refId": "0x01000057000218A1",
+      "name": "Bloated Corpse of a Drunk",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 119,
+      "refId": "0x01000075000010FE",
+      "name": "Jamrock Public Library",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 120,
+      "refId": "0x0100006B00009D07",
+      "name": "Barry the Butcher",
+      "shortDescription": "A man with something to say.",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 121,
+      "refId": "0x01000081000002AD",
+      "name": "Nix Gottlieb",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 122,
+      "refId": "0x010000750000223F",
+      "name": "MrDeleteMe",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 123,
+      "refId": "0x0100008200008E08",
+      "name": "Cuno's Dad",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 124,
+      "refId": "0x0100000800001110",
+      "name": "Mikael Heidelstam",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 125,
+      "refId": "0x010000060001C8EB",
+      "name": "Lilienne's Other Twin",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 126,
+      "refId": "0x0100000F00007594",
+      "name": "Steban, the Student Communist",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 127,
+      "refId": "0x0100000F000075A5",
+      "name": "Echo Maker",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 128,
+      "refId": "0x0100000F0000CA5D",
+      "name": "Coalition Warship Archer",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 129,
+      "refId": "0x0100004B00002348",
+      "name": "DJ Mesh",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 130,
+      "refId": "0x0100004B0000234D",
+      "name": "DJ Flacio",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 131,
+      "refId": "0x0100005300003C26",
+      "name": "Woman from Gottwald",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 132,
+      "refId": "0x010000580002068B",
+      "name": "Civilian",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 133,
+      "refId": "0x01000004000008DB",
+      "name": "Ceiling Fan",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 134,
+      "refId": "0x010000040000090A",
+      "name": "Mirror",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 135,
+      "refId": "0x0100000600000487",
+      "name": "Candle",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 136,
+      "refId": "0x010000060000048B",
+      "name": "Gun Barrel (4 Bullets)",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 137,
+      "refId": "0x01000006000009C4",
+      "name": "Dice d4",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 138,
+      "refId": "0x01000006000009C8",
+      "name": "Dice d20",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 139,
+      "refId": "0x01000006000009D0",
+      "name": "Blurred Mirror",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 140,
+      "refId": "0x0100000B0000002D",
+      "name": "Church Doors",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 141,
+      "refId": "0x0100002F000034E7",
+      "name": "The Greatest Innocence",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 142,
+      "refId": "0x0100002F00003529",
+      "name": "From A to Zrieek! A Guide To a Well-Behaved Cockatoo",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 143,
+      "refId": "0x0100002F00003532",
+      "name": "Man from Hjelmdall",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 144,
+      "refId": "0x0100002F00003536",
+      "name": "Man from Hjelmdall in Hell",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 145,
+      "refId": "0x0100002F0000353A",
+      "name": "Man from Hjelmdall and the Swamp Beast",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 146,
+      "refId": "0x0100002F0000353E",
+      "name": "Man from Hjelmdall and the Wild Fire",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 147,
+      "refId": "0x0100002F00003542",
+      "name": "Man from Hjelmdall and the Devil Woman",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 148,
+      "refId": "0x0100002F0000354F",
+      "name": "The “Great Ideas” of Mass Murderers Debunked",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 149,
+      "refId": "0x0100002F0000355A",
+      "name": "From Synchromesh to TwinClutch: A Beginners Guide to Changing Gears",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 150,
+      "refId": "0x0100002F0000355E",
+      "name": "Le TipTop Tournée: C'est Suicide, C'est Madness",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 151,
+      "refId": "0x0100002F00003562",
+      "name": "Nailing the Cochonnet",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 152,
+      "refId": "0x0100002F00003567",
+      "name": "Boule Brothers: The Tale of Pétanque",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 153,
+      "refId": "0x0100002F0000356B",
+      "name": "Dick Mullen and the Murder in the Orchard",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 154,
+      "refId": "0x0100002F0000356F",
+      "name": "The Stout Adventures of Dick Mullen",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 155,
+      "refId": "0x0100002F00003573",
+      "name": "The Stalwart Investigations of Dick Mullen",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 156,
+      "refId": "0x0100002F00003577",
+      "name": "Lord of the Western Plain",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 157,
+      "refId": "0x0100002F0000357B",
+      "name": "The Perikarnassian",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 158,
+      "refId": "0x0100002F0000357F",
+      "name": "Happy With the Perikarnassian",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 159,
+      "refId": "0x0100002F00003583",
+      "name": "Tractatus Politico-Extraphysicus",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 160,
+      "refId": "0x0100002F00003587",
+      "name": "The Relay Out of Death",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 161,
+      "refId": "0x0100002F00003598",
+      "name": "Interisolary Love",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 162,
+      "refId": "0x0100002F0000359C",
+      "name": "How To Repair Eendracht-class Airships: An Instruction Manual",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 163,
+      "refId": "0x0100002F000035A0",
+      "name": "Most Able-Bodied Detectives: A Top 10",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 164,
+      "refId": "0x0100002F000035A4",
+      "name": "Isolary Atlas",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 165,
+      "refId": "0x0100002F000035A8",
+      "name": "Franconigerian Hardbody: Boiadeiro Culture, Use Your Hardbody",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 166,
+      "refId": "0x0100002F000035AC",
+      "name": "Architectural Peculiarities of Jamrock",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 167,
+      "refId": "0x0100002F000035B0",
+      "name": "Death on the Disco Floor",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 168,
+      "refId": "0x0100002F000035B4",
+      "name": "Shortwave: An Operator's Handbook",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 169,
+      "refId": "0x0100002F000035B8",
+      "name": "Radio Programme of '49",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 170,
+      "refId": "0x0100002F000037A6",
+      "name": "Off We Go Into the Wild Pale Yonder",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 171,
+      "refId": "0x0100002F000037AC",
+      "name": "Ardish National Recipes: The Variable Flavours of Lake Trout",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 172,
+      "refId": "0x0100002F000037B0",
+      "name": "Wholeness, Unity, Balance",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 173,
+      "refId": "0x0100002F000037B4",
+      "name": "Fifty Savors of Pâté",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 174,
+      "refId": "0x0100002F000037B8",
+      "name": "Raise Your Offspring Properly: A Guidebook",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 175,
+      "refId": "0x0100002F000037BD",
+      "name": "World Domination Through Concentration",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 176,
+      "refId": "0x0100002F000037C1",
+      "name": "The Intrepid Life of Dick Mullen",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 177,
+      "refId": "0x0100002F000037C5",
+      "name": "Tome of Fascist Magic",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 178,
+      "refId": "0x0100002F000037C9",
+      "name": "Man from Hjelmdall and the Hjelmdall Man",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 179,
+      "refId": "0x0100002F000037CD",
+      "name": "Greatest Meals From The New",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 180,
+      "refId": "0x0100002F00009779",
+      "name": "Hjelmdallermann: the Man from Hjelmdall",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 181,
+      "refId": "0x0100002F0000977D",
+      "name": "Man from Hjelmdall in the Lost City of the Pygmies",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 182,
+      "refId": "0x0100002F00009DA7",
+      "name": "Man from Hjelmdall in Pellucidar",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 183,
+      "refId": "0x0100002F0000CFDB",
+      "name": "Man from Hjelmdall and the Mystery of the Lost Identity",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 184,
+      "refId": "0x0100002F0000D01E",
+      "name": "The Lie Detector",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 185,
+      "refId": "0x0100002F0000D3F8",
+      "name": "Primer Book",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 186,
+      "refId": "0x0100002F0000D487",
+      "name": "High Speed Love: The Tragic True Story of Jacob Irw and Alfie Deletraz",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 187,
+      "refId": "0x010000450001D2C0",
+      "name": "Un Pays Infernal",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 188,
+      "refId": "0x0100006B00005E88",
+      "name": "Medicinal Purposes of the Pale",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 189,
+      "refId": "0x0100006B00005E8C",
+      "name": "Suzerainty: The Board Game",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 190,
+      "refId": "0x0100006B00005E90",
+      "name": "Sixteen Days of Coldest April",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 191,
+      "refId": "0x0100006B00006006",
+      "name": "Dick Mullen and the Mistaken Identity",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 192,
+      "refId": "0x01000089000047BD",
+      "name": "Codex Urik",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 193,
+      "refId": "0x01000006000172E3",
+      "name": "Tourist map of Martinaise",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 194,
+      "refId": "0x0100000D00001417",
+      "name": "Stained Glass Window",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 195,
+      "refId": "0x0100000900002CC3",
+      "name": "Workout Bench",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 196,
+      "refId": "0x0100000B00000474",
+      "name": "Tent Flap",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 197,
+      "refId": "0x0100000400002C96",
+      "name": "Key On Yellow Keyring",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 198,
+      "refId": "0x0100001600000589",
+      "name": "Shards of Dei",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 199,
+      "refId": "0x01000014000029F1",
+      "name": "Payphone",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 200,
+      "refId": "0x01000016000018C2",
+      "name": "Torch",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 201,
+      "refId": "0x01000016000018C6",
+      "name": "Firefighter's Axe",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 202,
+      "refId": "0x0100000400009B34",
+      "name": "Trash Container",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 203,
+      "refId": "0x0100002B0000514E",
+      "name": "Coin-Operated Viewer",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 204,
+      "refId": "0x010000040000C514",
+      "name": "Broken Window",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 205,
+      "refId": "0x0100002F000034E2",
+      "name": "Warded Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 206,
+      "refId": "0x0100002F0000352D",
+      "name": "Closed Curtains",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 207,
+      "refId": "0x0100002B0000670B",
+      "name": "Radio",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 208,
+      "refId": "0x010000040000DDFF",
+      "name": "Mail Collection Box",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 209,
+      "refId": "0x01000040000028FC",
+      "name": "Stone",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 210,
+      "refId": "0x0100002B00029F1F",
+      "name": "Tare Machine",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 211,
+      "refId": "0x0100002B0002A0D3",
+      "name": "Plastic Rain Coat",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 212,
+      "refId": "0x0100002B0004102C",
+      "name": "Pile of Clothes",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 213,
+      "refId": "0x0100002B00041030",
+      "name": "Pile of Sunglasses",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 214,
+      "refId": "0x0100002B00041034",
+      "name": "Blind Musician's Soulful Shades",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 215,
+      "refId": "0x0100002B0005B5BE",
+      "name": "Electronic Doorbell",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 216,
+      "refId": "0x01000045000012F2",
+      "name": "Damaged Ledger",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 217,
+      "refId": "0x0100004500003299",
+      "name": "Ledger of Failure and Hatred",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 218,
+      "refId": "0x010000450000329D",
+      "name": "Oblivion Ledger",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 219,
+      "refId": "0x010000450000338A",
+      "name": "Lieutenant's Notebook",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 220,
+      "refId": "0x0100002F0000D062",
+      "name": "Wirrâl",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 221,
+      "refId": "0x0100004D00002940",
+      "name": "Sawed-off Street Light",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 222,
+      "refId": "0x0100004D00002944",
+      "name": "Canary Cage",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 223,
+      "refId": "0x0100002700000731",
+      "name": "Key, Room #1",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 224,
+      "refId": "0x0100002B00008371",
+      "name": "Door, Apartment #28",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 225,
+      "refId": "0x010000040000C2CC",
+      "name": "Door, Room #3",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 226,
+      "refId": "0x0100004500000EE2",
+      "name": "Box of Sunglasses",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 227,
+      "refId": "0x0100004500000EDE",
+      "name": "FALN Sneakers on a Pedestal of Speakers",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 228,
+      "refId": "0x0100004500000EE6",
+      "name": "Box of Clothes",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 229,
+      "refId": "0x0100004D00003160",
+      "name": "Rack of Second-Hand Uniforms",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 230,
+      "refId": "0x0100002B00081E5F",
+      "name": "Central Furnace",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 231,
+      "refId": "0x0100002B00081F16",
+      "name": "Horrific Necktie",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 232,
+      "refId": "0x0100002B000833C4",
+      "name": "Breaker Box",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 233,
+      "refId": "0x0100002B0008598F",
+      "name": "Ice Cream Maker",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 234,
+      "refId": "0x0100002B00085E80",
+      "name": "Ice Bear Fridge",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 235,
+      "refId": "0x0100004D00003164",
+      "name": "Knick-knacks Stand",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 236,
+      "refId": "0x0100004D00003E8E",
+      "name": "Shelf of Boomboxes",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 237,
+      "refId": "0x0100002B00086400",
+      "name": "A Hole in the Wall",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 238,
+      "refId": "0x0100002F0000DC61",
+      "name": "Door, Room #1",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 239,
+      "refId": "0x0100002F0000DD92",
+      "name": "Bed",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 240,
+      "refId": "0x0100002B000869F7",
+      "name": "First Aid Kit",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 241,
+      "refId": "0x0100002F0000DE9F",
+      "name": "Shack Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 242,
+      "refId": "0x0100002F0000DF1F",
+      "name": "ROO A72 Motor Skiff",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 243,
+      "refId": "0x0100003100001756",
+      "name": "Gaston's Sandwich",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 244,
+      "refId": "0x010000310000E52A",
+      "name": "Policeman Cloak",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 245,
+      "refId": "0x01000031000061CE",
+      "name": "Police Radio",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 246,
+      "refId": "0x010000310000B329",
+      "name": "File Cabinet",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 247,
+      "refId": "0x0100002B00086E4E",
+      "name": "Saint-Batiste Pharmaceutics",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 248,
+      "refId": "0x0100002F0000E6B7",
+      "name": "Medicine Cabinet",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 249,
+      "refId": "0x0100002F0000E6BC",
+      "name": "The Button",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 250,
+      "refId": "0x0100002F0000E6C1",
+      "name": "Electronically Locked Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 251,
+      "refId": "0x0100004500005C47",
+      "name": "Barbell",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 252,
+      "refId": "0x0100004500005CA2",
+      "name": "Project Dread Board",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 253,
+      "refId": "0x0100002F0000EFD6",
+      "name": "Reeds",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 254,
+      "refId": "0x0100002F0000F101",
+      "name": "Sewage Run-off Pipe",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 255,
+      "refId": "0x0100002F0000F105",
+      "name": "Phasmid Trap",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 256,
+      "refId": "0x0100004500005CFB",
+      "name": "Radiocomputer",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 257,
+      "refId": "0x0100002F0000F43B",
+      "name": "Photo of Klaasje",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 258,
+      "refId": "0x0100002F0000F546",
+      "name": "Note from Klaasje",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 259,
+      "refId": "0x0100002F0000F729",
+      "name": "Control Buoy",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 260,
+      "refId": "0x0100002F0000F911",
+      "name": "Door, Room #2",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 261,
+      "refId": "0x0100002F0000F930",
+      "name": "Elevator",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 262,
+      "refId": "0x0100002F0000F93C",
+      "name": "Abandoned Lorry",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 263,
+      "refId": "0x0100002F0000F940",
+      "name": "Fishing Rod",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 264,
+      "refId": "0x0100002F0000F94C",
+      "name": "Bust of Kras Mazov",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 265,
+      "refId": "0x0100002F0000F950",
+      "name": "Samaran Butter",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 266,
+      "refId": "0x0100002F0000F954",
+      "name": "Sunken Motor Carriage",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 267,
+      "refId": "0x0100002F0000F958",
+      "name": "Washbasin",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 268,
+      "refId": "0x0100002F0000F970",
+      "name": "Eternite Drawbridge",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 269,
+      "refId": "0x0100002F0000F974",
+      "name": "Mainframe",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 270,
+      "refId": "0x0100002F0000F978",
+      "name": "Radio Array",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 271,
+      "refId": "0x0100002F0000F97C",
+      "name": "Safety Curtains",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 272,
+      "refId": "0x0100002F0000F984",
+      "name": "Horseback Monument",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 273,
+      "refId": "0x0100002F0000FE22",
+      "name": "Door, Apartment #20",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 274,
+      "refId": "0x0100002F0000FE26",
+      "name": "Padlocked Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 275,
+      "refId": "0x0100002F0000FE2A",
+      "name": "Door, Apartment #12",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 276,
+      "refId": "0x0100002F000118B4",
+      "name": "Shelf of Biographies",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 277,
+      "refId": "0x0100002F000118B8",
+      "name": "Shelf of Crime Novels",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 278,
+      "refId": "0x0100002F000118BC",
+      "name": "Shelf of Romance Stories",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 279,
+      "refId": "0x0100002F000118C0",
+      "name": "Mountain of Board Games",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 280,
+      "refId": "0x0100002F000118C4",
+      "name": "Display of Paranormal Books",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 281,
+      "refId": "0x0100002F000118C8",
+      "name": "Map Wall",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 282,
+      "refId": "0x0100002F00011917",
+      "name": "Man from Hjelmdall Series",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 283,
+      "refId": "0x0100005800002577",
+      "name": "Fractured Bullet",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 284,
+      "refId": "0x010000570000215F",
+      "name": "Frequency Fireplace",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 285,
+      "refId": "0x0100005800004005",
+      "name": "Working Class Corpse",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 286,
+      "refId": "0x010000580000422F",
+      "name": "Thank You Note",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 287,
+      "refId": "0x0100004C0000B269",
+      "name": "BADGE: LTN-2JFR DU BOIS",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 288,
+      "refId": "0x010000450000EAEB",
+      "name": "Clear Window",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 289,
+      "refId": "0x010000450000EC5A",
+      "name": "Dried Wildflower",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 290,
+      "refId": "0x010000450000EDFB",
+      "name": "Barred Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 291,
+      "refId": "0x0100005800005A25",
+      "name": "Colonial Mug Collection",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 292,
+      "refId": "0x01000045000128FB",
+      "name": "Stereo 8 Player",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 293,
+      "refId": "0x0100005800006D4B",
+      "name": "Blue door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 294,
+      "refId": "0x0100004C000112FD",
+      "name": "Cafeteria Window",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 295,
+      "refId": "0x01000058000074EF",
+      "name": "Footprints in the Dust",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 296,
+      "refId": "0x010000580000850D",
+      "name": "Bathtub",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 297,
+      "refId": "0x01000057000166F8",
+      "name": "Southwest Entrance to the Tenements",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 298,
+      "refId": "0x0100005A0000B18E",
+      "name": "Hawthorn Tree",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 299,
+      "refId": "0x010000580000A793",
+      "name": "Ice Bear Fridge with Hanged Man",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 300,
+      "refId": "0x010000580000A797",
+      "name": "Industrial Stove",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 301,
+      "refId": "0x010000580000BD64",
+      "name": "Instigator's Tent",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 302,
+      "refId": "0x010000580000BEFD",
+      "name": "Feld Mural",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 303,
+      "refId": "0x010000580000BF01",
+      "name": "Feld Ladder",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 304,
+      "refId": "0x010000580000C5D9",
+      "name": "Kras Mazov Portrait",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 305,
+      "refId": "0x010000580000C5DD",
+      "name": "Pale Latitude Compressor",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 306,
+      "refId": "0x0100005A0000DCDA",
+      "name": "Door (Unopenable)",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 307,
+      "refId": "0x010000450001AA35",
+      "name": "Half-Finished Paperwork",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 308,
+      "refId": "0x010000450001AD02",
+      "name": "Klaasje's Note",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 309,
+      "refId": "0x010000570001CD22",
+      "name": "Water Bowls",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 310,
+      "refId": "0x010000450001B4C1",
+      "name": "ONE DAY I WILL RETURN TO YOUR SIDE",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 311,
+      "refId": "0x010000450001C7FF",
+      "name": "Microgrid Generator",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 312,
+      "refId": "0x010000450001C80D",
+      "name": "Hard Spring Mattress",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 313,
+      "refId": "0x010000450001C871",
+      "name": "Spring Mattress",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 314,
+      "refId": "0x010000450001CB9F",
+      "name": "Reading Materials",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 315,
+      "refId": "0x010000450001CE38",
+      "name": "Small Blast Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 316,
+      "refId": "0x010000450001CE3C",
+      "name": "Feld \"Insular\" Console",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 317,
+      "refId": "0x010000450001D4B8",
+      "name": "Mattress Nest",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 318,
+      "refId": "0x0100004C0000AF73",
+      "name": "Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 319,
+      "refId": "0x0100004C0001A4A3",
+      "name": "Beautiful Necktie",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 320,
+      "refId": "0x010000580000F5CF",
+      "name": "Ruby's Journal",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 321,
+      "refId": "0x010000590000975E",
+      "name": "Cargo Container Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 322,
+      "refId": "0x010000570001DD99",
+      "name": "Locked Door",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 323,
+      "refId": "0x010000570001DEDB",
+      "name": "Writing Desk",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 324,
+      "refId": "0x0100006B000008B9",
+      "name": "Shelf of Paranormal Books",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 325,
+      "refId": "0x010000580001B4FE",
+      "name": "Door, Basement Apartment",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 326,
+      "refId": "0x0100006B00002035",
+      "name": "The Great Doorgunner Megamix",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 327,
+      "refId": "0x0100006B0000221C",
+      "name": "Coffee Table",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 328,
+      "refId": "0x010000570002267F",
+      "name": "A Note from the Fridge",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 329,
+      "refId": "0x0100005700022CA2",
+      "name": "Shimmering Wall of Vices",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 330,
+      "refId": "0x0100006B00003E60",
+      "name": "Photo of Tattoos",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 331,
+      "refId": "0x01000057000237E9",
+      "name": "\"Smallest Church in Saint-Saëns\"",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 332,
+      "refId": "0x0100005700023A45",
+      "name": "Karaoke Stand",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 333,
+      "refId": "0x0100007500000AD9",
+      "name": "A Folded Library Card",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 334,
+      "refId": "0x0100007500000F27",
+      "name": "Trash Can",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 335,
+      "refId": "0x0100006B00007E99",
+      "name": "Water Lock Control Panel",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 336,
+      "refId": "0x0100007100005992",
+      "name": "Small Buoy",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 337,
+      "refId": "0x0100006B00009DE9",
+      "name": "Apricot Chewing Gum Wrapper",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 338,
+      "refId": "0x0100007B000020CF",
+      "name": "Railing",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 339,
+      "refId": "0x01000081000024F8",
+      "name": "The Sun",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 340,
+      "refId": "0x01000081000035B1",
+      "name": "Boots with Rotting Flesh",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 341,
+      "refId": "0x0100008100003A3E",
+      "name": "Deluxe Topping Pie",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 342,
+      "refId": "0x0100008200008E75",
+      "name": "A Pile of Clothes",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 343,
+      "refId": "0x0100008200010CDE",
+      "name": "Nightwatchman's Booth",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 344,
+      "refId": "0x0100008900001BE7",
+      "name": "Filthy Jacket",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 345,
+      "refId": "0x0100008900001D24",
+      "name": "Bench",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 346,
+      "refId": "0x010000780000A8B6",
+      "name": "A Pedestal of Speakers",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 347,
+      "refId": "0x01000089000029F0",
+      "name": "Oranjese Passport",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 348,
+      "refId": "0x0100006400000603",
+      "name": "Pile of Eternite",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 349,
+      "refId": "0x0100008900004010",
+      "name": "Crane Control Panel",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 350,
+      "refId": "0x010000820001EFA7",
+      "name": "Punch Clock/Payphone",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 351,
+      "refId": "0x0100009700004C94",
+      "name": "Flashlight",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 352,
+      "refId": "0x0100009700004D03",
+      "name": "Drainage Pipe",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 353,
+      "refId": "0x010000070000138D",
+      "name": "White Envelope",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 354,
+      "refId": "0x01000006000083DA",
+      "name": "Tutorial Agent",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 355,
+      "refId": "0x0100001600003241",
+      "name": "Backyard Wall",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 356,
+      "refId": "0x010000080000683E",
+      "name": "Set of Tracks",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 357,
+      "refId": "0x0100000800006842",
+      "name": "Scattering of Bullet Holes",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 358,
+      "refId": "0x0100000800006846",
+      "name": "Footprints in the Mud",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 359,
+      "refId": "0x010000160000A41F",
+      "name": "Loose Floorboard",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 360,
+      "refId": "0x0100002900000A4E",
+      "name": "Trap: Boathouses",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 361,
+      "refId": "0x0100002900000A52",
+      "name": "Trap: Land's End",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 362,
+      "refId": "0x0100002900000A56",
+      "name": "Trap: Canal",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 363,
+      "refId": "0x0100002900000A5A",
+      "name": "Trap: Morell",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 364,
+      "refId": "0x0100000700012073",
+      "name": "Sandcastle",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 365,
+      "refId": "0x0100000600018A46",
+      "name": "Yellow Man Mug",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 366,
+      "refId": "0x010000060001D26E",
+      "name": "Graad Factory of Magnets and Miracles U49",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 367,
+      "refId": "0x010000060001FED0",
+      "name": "Figure in the dark",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 368,
+      "refId": "0x0100000F000072CF",
+      "name": "Metal Grille Door",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 369,
+      "refId": "0x0100000F00008469",
+      "name": "La Fumée, Vol. 1 No. 4",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 370,
+      "refId": "0x0100000F00008A89",
+      "name": "A Brief Look at Infra-Materialism",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 371,
+      "refId": "0x0100000F0000BF99",
+      "name": "Horseback Antenna",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 372,
+      "refId": "0x0100000F0000E7BC",
+      "name": "Office Radio",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 373,
+      "refId": "0x0100000F000168C3",
+      "name": "Stock Certificate",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 374,
+      "refId": "0x01000001000003B4",
+      "name": "BRANCH MARKER",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 375,
+      "refId": "0x0100002F0000F80C",
+      "name": "Dolores Dei",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 376,
+      "refId": "0x01000014000040ED",
+      "name": "Evrart Claire",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 377,
+      "refId": "0x0100000400006295",
+      "name": "Garte, the Cafeteria Manager",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 378,
+      "refId": "0x0100002F0000F774",
+      "name": "Insulindian Phasmid",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 379,
+      "refId": "0x010000040000B299",
+      "name": "Jean Vicquemare",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 380,
+      "refId": "0x0100002B00005079",
+      "name": "Joyce Messier",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 381,
+      "refId": "0x010000040000B29D",
+      "name": "Judit Minot",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 382,
+      "refId": "0x0100000000000449",
+      "name": "Klaasje (Miss Oranje Disco Dancer)",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 383,
+      "refId": "0x010000000000044D",
+      "name": "Lena, the Cryptozoologist's wife",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 384,
+      "refId": "0x0100002F0000EFCE",
+      "name": "Morell, the Cryptozoologist",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 385,
+      "refId": "0x0100002F0000F36A",
+      "name": "Ruby, the Instigator",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 386,
+      "refId": "0x0100004500002ACE",
+      "name": "Shadow of a Shadow",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 387,
+      "refId": "0x010000060000033A",
+      "name": "Soona, the Programmer",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": true
+    },
+    {
+      "actorId": 388,
+      "refId": "0x0100002F0000F36F",
+      "name": "The Deserter",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 389,
+      "refId": "0x0100000400009A01",
+      "name": "The Hanged Man",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 390,
+      "refId": "0x010000040000B2A1",
+      "name": "Trant Heidelstam",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 391,
+      "refId": "i2638p11kdb5l22a",
+      "name": "Ice-swimmer",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 392,
+      "refId": "l_g3lf0sent68y1i",
+      "name": "Seagull",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 393,
+      "refId": "2s1_ecylh9phmmlw",
+      "name": "Cornelius Gurdi and the Mountain Goats",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 394,
+      "refId": "s3d41lujkckucung",
+      "name": "Leopard-patterned bodysuit",
+      "isPlayer": false,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 395,
+      "refId": "0x0100000000000445",
+      "name": "Kim Kitsuragi",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 396,
+      "refId": "0x010000000000057C",
+      "name": "You",
+      "isPlayer": true,
+      "isNPC": false,
+      "isFemale": false
+    },
+    {
+      "actorId": 397,
+      "refId": "0x0100000400000918",
+      "name": "Conceptualization",
+      "shortDescription": "Understand creativity. See Art in the world.",
+      "longDescription": "COOL FOR: CREATIVES. PSYCHEDELIC FANCIERS. CRITICS.\n\nConceptualization has a special role it wants you to play in this world – not the role of cop, but of Art Cop. It enables you to make fresh associations, to delve into world-concepts from Jan Kaarp’s postmodernist karperie, to Revachol’s arabesque architectural style dideridada, and even the concept of HARDCORE – and then, importantly, to add your own contribution to these works.\n\nAt high levels, Conceptualization makes you go big – perhaps too big. It is ostentatious, demanding grand displays. Why live life when you can throw yourself into a live volcano? At low levels, however, you will be unable to see the world in a creative light. You’ll be unable to contribute to conversations in an art gallery. Only boring people will invite you to their dust parties.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 398,
+      "refId": "0x0100000400000767",
+      "name": "Logic",
+      "shortDescription": "Wield raw intellectual power. Deduce the world.",
+      "longDescription": "COOL FOR: ANALYSTS. PURE RATIONALISTS. OBVIOUSLY LOGICIANS.\n\nLogic urges you to analyze the living daylights out of the case. It enables you to piece evidence together, detect inconsistencies in statements, and impress everyone with your astonishing conclusions. It's the bread and butter of many a detective.\n\nAt high levels, Logic will be able to solve even the most complicated puzzle. You will be very proud, and thus susceptible to intellectual flattery; for those blinded by their own brilliance often miss important clues. With low levels of Logic, you’re going to have a hard time solving even the simplest puzzle. Even if you find the pieces, good luck putting them together.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 399,
+      "refId": "0x010000040000076B",
+      "name": "Encyclopedia",
+      "shortDescription": "Call upon all your knowledge. Produce fascinating trivia.",
+      "longDescription": "COOL FOR: THINKERS. HISTORIANS. TRIVIA FREAKS.\n\nEncyclopedia makes you a know-it-all, turning your mind into a database of facts. It enables you to draw on these facts innately, offering a wealth of background knowledge to all things related and unrelated to your case. Who knows when the history of cigarette brands will provide the breakthrough you need to arrest a murderer – or when knowledge of pre-Revolutionary guns might save a life?\n\nAt high levels, Encyclopedia shares this wealth of knowledge to an almost overwhelming degree – while it may give you crucial breakthroughs, it more often will clutter your mind with useless tidbits. With low levels of Encyclopedia, though, you’ll be forced to work with only the clues in front of you. Without any background knowledge, copping is going to be tough stuff.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 400,
+      "refId": "0x0100000A00000016",
+      "name": "Rhetoric",
+      "shortDescription": "Practice the art of persuasion. Enjoy rigorous intellectual discourse.",
+      "longDescription": "COOL FOR: IDEOLOGUES. CONVERSATIONALISTS. WOULD-BE-POLITICIANS.\n\nRhetoric urges you to debate, make intellectual discourse, nitpick – and win. It enables you to break down arguments and hear what people are really saying. You’ll spot fallacies as soon as they’re used -- what exactly did the waiter leave out of their testimony? What was the dancer trying to divert you from? Was that double entendre intended, or did you just get an accidental lead? \n\nAt high levels, Rhetoric will make you an impressive political beast – one whose beliefs are impenetrable. Which is to say, one whose mind will not change; one who will calcify. With low Rhetoric, though, you’ll have a hard time of shooting down any argument. Nailing people to their testimonies will be neigh impossible.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 401,
+      "refId": "0x0100000A0000001A",
+      "name": "Drama",
+      "shortDescription": "Play the actor. Lie – and detect lies.",
+      "longDescription": "COOL FOR: UNDERCOVER COPS. THESPIANS OF THE STAGE. PSYCHOPATHS.\n\nDrama urges you to treat the world as a stage – and on it, to perform. It enables you to lie, to concoct the most elaborate and wonderful stories; to take on ingenious personas and perform acts of stagecraft in an entertaining amalgam of fourberie and deceit! As well, it enables you to see through would-be actors and their false antics. If they lie, you’ll know. Immediately.\n\nAt high levels, Drama may render you an insufferable thespian – one prone to hysterics and bouts of paranoia; for to know the world is a stage is to know that Truth is a Vanity. However, with low Drama you cannot lie – or discern when others lie. And a cop who can't do either is a cop who's soon going to be lying six feet under.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 402,
+      "refId": "0x0100000A0000001E",
+      "name": "Visual Calculus",
+      "shortDescription": "Reconstruct crime scenes. Make laws of physics work for the Law.",
+      "longDescription": "COOL FOR: FORENSIC SCIENTISTS. TACTICAL FIGHTERS. MATH-MINDED PEOPLE.\n\nVisual Calculus verses you not only in the laws of the state, but the laws of nature. It enables you to create virtual crime-scene models in your mind’s eye. You’ll see how a bullet shattered the glass, and from that trace its trajectory with mathematical precision. You’ll also count so many footprints – and at a glance discern shoe size and design; as well as the height, weight, and gender of the one who wore them.\n\nAt high levels, Visual Calculus makes the world reveal its secrets to you – but you may be so absorbed by your mind-diorama, you don’t notice as crooks steal your pants. However, at low levels, your mind’s eye will be blind. Reconstructing crime scenes will be difficult without outside help.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 403,
+      "refId": "0x0100000400000773",
+      "name": "Empathy",
+      "shortDescription": "Understand others. Work your mirror neurons.",
+      "longDescription": "COOL FOR: JUDGES OF CHARACTER. INTERVIEWERS. INTERROGATORS.\n\nEmpathy breaks into the souls of others and forces you to feel what’s inside. It enables you to notice social cues others may miss: perhaps a hidden sadness you could coax out a little more, a strange joy from someone who should be bereaved, or a hidden resentment that could return to harm you later.\n\nAt high levels, Empathy really puts you in other people’s shoes. You’ll cry for their sorrows, punch walls to relieve their angers, and be an even more unstable cop. With low Empathy, however, you’ll be an ungainly beast unable to talk to anyone without upsetting them.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 404,
+      "refId": "0x010000040000076F",
+      "name": "Inland Empire",
+      "shortDescription": "Hunches and gut feelings. Dreams in waking life.",
+      "longDescription": "COOL FOR: DREAMERS. PARA-NATURAL INVESTIGATORS. MENTAL CREATORS.\n\nInland Empire is the unfiltered wellspring of imagination, emotion, and foreboding. It enables you to grope your way through invisible dimensions of reality, gaining insight into that which sight can’t see. What’s really going? What do these enigmatic riddles mean for the world-fate?\n\nAt high levels, Inland Empire animates the inanimate. You’ll have conversations with your clothing, conversations that may change the course of the investigation if you’re not thrown in the loony bin first. With low Inland Empire, however, you’ll be void of imagination – and character. And then how will you shape the cosmos?",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 405,
+      "refId": "0x0100000A0000003E",
+      "name": "Volition",
+      "shortDescription": "Hold yourself together. Keep your Morale up.",
+      "longDescription": "COOL FOR: SANE PEOPLE. WELL-ADJUSTED COPS. THE NON-SUICIDIAL.\n\nVolition urges you to be a good guy – to others and to yourself. It enables you to resist temptation: be it in a bottle, between a pair of legs, or at the end of an iron barrel which promises oblivion. Volition gives you the will to finish the investigation, improving your Morale – one of the two health pools in the game.\n\nAt high levels, Volition makes you hyper-sane. When you’re about to get funky, it keeps you normal. It’s a bit of a party-pooper. At low levels, however, you’ll have little Morale. Without it, you’ll be a profoundly unstable cop, falling apart at the seams as you make irreversible mistakes.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 406,
+      "refId": "0x0100000A00000042",
+      "name": "Authority",
+      "shortDescription": "Intimidate the public. Assert yourself.",
+      "longDescription": "COOL FOR: LEADERS. EXPERTS OF PSYCHOLOGICAL WARFARE. RESPECT-JUNKIES.\n\nAuthority urges you to assert and reassert your dominance over those around you. It enables you to understand the power dynamics of groups of thugs, know how far you can push a perpetrator, and how to establish control of situations.\n\nAt high levels, Authority demands respect; even a perceived slight could send you into knee-breaking mode. With low Authority, however, you’re forever in awkward situations – like when you suffer psychological breakdowns after you yell at teenagers and they laugh at you. ",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 407,
+      "refId": "0x0100000A00000046",
+      "name": "Suggestion",
+      "shortDescription": "Charm men and women. Play the puppet-master.",
+      "longDescription": "COOL FOR: DIPLOMATS. CHARMERS. SOCIOPATHS.\n\nSuggestion urges a soft-power approach. If people think they want what you want, you’ve already won. This skill enables you to implant ideas into the minds of others. You can make the citizens like you more. You can make gangsters turn on each other, too; many crime-rings have been broken by just a little doubt, after all.\n\nAt high levels, Suggestion makes you affable to everyone and more resistant to their charms in turn. But all that schmoozing and oozing charm will make you slimy. And you’ll know it, even if no one else does. With low levels of Suggestion, though, you’ll have difficulty getting any kind of rapport with others. You’ll be alone, both during the day and at night.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 408,
+      "refId": "0x0100000A0000004A",
+      "name": "Esprit de Corps",
+      "shortDescription": "Connect to Station 41. Understand cop culture.",
+      "longDescription": "COOL FOR: COPS. COP-AFICIONADOS. PRETEND-COPS.\n\nEsprit de Corps is the very spirit of policing: the cop-geist. It enables you to understand your blue-souled sisters and brothers – not only by picking up subtle signals from your partner, but by witnessing flash-sideways scenes as they play out in your precinct.\n\nAt high levels, you’ll be the very heart of the police force: not only willing and able but obliged to take a bullet for your partner. However, without Esprit de Corps you’ll be flying blind, unable to understand discreet remarks colleagues make in high-stakes situations; remarks that might just save your life.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 409,
+      "refId": "0x01000004000009A7",
+      "name": "Endurance",
+      "shortDescription": "Take the blows. Don’t let the world kill you.",
+      "longDescription": "COOL FOR: FIGHTERS WHO CAN TAKE A HIT. LOOKOUTS WHO DON’T SLEEP. HUMAN BATTERIES.\n\nEndurance is your metabolism and circulatory system. It improves your Health – one of the two health pools in the game. It enables to survive being a cop. Who cares if you can’t aim a gun, if you can take a few bullets? Why be afraid of drugs that hurt your health if you’re a very, very healthy man?\n\nAt high levels, Endurance enables you to take a few knocks to the head, enjoy a greater quantity of drugs, and shake off a few cardiac arrests – it makes you a powerful man, who looks down on the weaklings who can’t keep up. However, cops with low Endurance are likely to struggle. The body is frail already, and the flesh of a cop will often be tested. And if it doesn’t pass, it dies.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 410,
+      "refId": "0x0100000400000B11",
+      "name": "Physical Instrument",
+      "shortDescription": "Flex powerful muscles. Enjoy healthy organs.",
+      "longDescription": "COOL FOR: MUSCLE MEN. BARE-KNUCKLE BRAWLERS. GYM TEACHERS.\n\nPhysical Instrument is not only your muscles and your skeleton – it is your ability to use them effectively. It enables you to do push-ups, sit-ups, knock-out punches and 360-degree spin-kicks. It's a one size fits all solution to thriving and surviving in a physical world.\n\nAt high levels, Physical Instrument breaks doors, chains, and bones, and it makes you laugh at the namby-pansies who can’t. You’ll be manned-up, encouraging others to curl iron until they’re manned-up too. At low levels, however, you’ll have a hard time arresting anyone who isn’t infirm or already dead. Indeed, engaging in physical confrontations could leave you in either state. ",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 411,
+      "refId": "0x0100000400000BC7",
+      "name": "Shivers",
+      "shortDescription": "Raise the hair on your neck. Tune in to the city.",
+      "longDescription": "COOL FOR: CITY LOVERS.  THE WISEST OF THE STREET WISE. THE GENUINELY SUPRA-NATURAL.\n\nShivers come when the temperature drops and you become more keenly aware of your surroundings. It enables you to hear the city itself, to truly belong to the streets. It is a supra-natural ability; old wrongs play out in present time, scenes across the city happen in front of you. But who is speaking to you?  \n\nAt high levels, Shivers may make you seem mad to the outside world – as you listen to the city, you don’t listen to others. Your superiors may begin to worry. With a low Shivers, though you will seldom hear the city speaking to you – and if you cannot hear it, how can you ever save it?",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 412,
+      "refId": "0x0100000A00000022",
+      "name": "Pain Threshold",
+      "shortDescription": "Shrug off the pain. They’ll have to hurt you more.",
+      "longDescription": "COOL FOR: UNSTOPPABLE FIGHTERS. GUYS WHO WON’T DIE. MASOCHISTS.\n\nPain Threshold ignores damage so you can push on, bloodied and crawling, to the bitterest end. It enables you to negate damage you would otherwise take. Even mental pain – heartache and loneliness. In fact, these things can become a thrill you seek out and perversely revel in.\n\nAt high levels, Pain Threshold turns in on itself in seriously unhealthy way, with full-on self-destructive behaviour. With a low Pain Threshold, however, you will suffer too easily. Even a slap from a teenager will make you whine and complain.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 413,
+      "refId": "0x0100000A00000026",
+      "name": "Electrochemistry",
+      "shortDescription": "Go to party planet. Love and be loved by drugs.",
+      "longDescription": "COOL FOR: HIGH-FLIERS. PARTY ENTHUSIASTS. COPS WHO NEED LIGHTNING.\n\nElectrochemistry is the animal within you, the beast longing to be unleashed to indulge and enjoy. It enables you to take drugs with fewer negative side-effects. It also enables you to better investigate lurid matters – if you need to understand a chemical breakdown, or talk to someone blasted out of their mind, or understand sexual dynamics, Electrochemistry is there to guide you.\n\nAt high levels, Electrochemistry makes you a man of unrestrained pleasure – an unrepentant lothario who leers at people with a bottle of speed and a plastic bendy straw in either hand. But with a low Electrochemistry, you’ll be too innocent to be effective. Without a working knowledge of drugs and sex, the city will be difficult to understand.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 414,
+      "refId": "0x01000011000010D8",
+      "name": "Half Light",
+      "shortDescription": "Let the body take control. Threaten people.",
+      "longDescription": "COOL FOR: HIGH-STRUNG INVESTIGATORS. SHOOT-NOW-ASK-QUESTIONS-LATER COPS. SURPRISE HATERS.\n\nHalf Light is your fight-or-flight response. It enables you to sense the way situations are about to turn. It injects palpable fear into your heart – fear that urges you to act before it’s too late to act ever again; fear that makes you frighten others. It is the aggression that lets you squeeze every last drop of information out of a witness.\n\nAt high levels, Half Light makes you ultra-attuned to the world. It is perpetual fear – of your own shadow, of someone else’s name or scent. You’ll be ready, always, to pounce and physically interrogate passers-by. At low levels, however, you’ll find your survival instinct is lacking. And your methods limp-wristed. Those who respect violence will not respect you.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 415,
+      "refId": "0x0100000A0000002A",
+      "name": "Hand/Eye Coordination",
+      "shortDescription": "Ready? Aim and fire.",
+      "longDescription": "COOL FOR: TRICK-SHOOTERS. SNIPERS. JUGGLERS.\n\nHand / Eye Coordination loves the interactions between you and things that fly in the air. It enables you to catch coins from mob bosses, shoot straight, and understand firearms intimately. Want to know the precise make and mark of a pistol? H/E Coordination's got you. Want to shoot someone with it? Ditto.\n\nAt high levels, Hand / Eye Coordination makes you deadly – supposing you’ve a weapon in your hand. But once you do, H/E Coordination will compel you to take the shot – even if it’s not the best approach. At low levels, however, you’ll be even more of a disaster in waiting. Because when the guns go off – and they always do – you’ll probably hit the wrong target.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 416,
+      "refId": "0x0100000A0000002E",
+      "name": "Reaction Speed",
+      "shortDescription": "The quickest to react. An untouchable man.",
+      "longDescription": "COOL FOR: SHOT-DODGERS. THINKERS ON THEIR FEET. PINBALL-HEADS.\n\nReaction Speed is the agility of your body and mind. It is instinct. It enables you to dodge punches, knives, bullets. Also sucker punches of the verbal kind. You'll be more streetwise, never lost for words or lacking a witty comeback. Your mental alacrity lets you connect little details on the fly, working in tandem with your Intellect skills.\n\nAt high levels, Reaction Speed makes your twitch-reflex freakishly good. However, when your body acts before your mind, innocent situations can turn bad fast. You're high strung, overly alert. At low levels, though, you won’t be the one shooting first – which probably means you won’t be shooting at all.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 417,
+      "refId": "0x0100000A00000032",
+      "name": "Savoir Faire",
+      "shortDescription": "Sneak under their noses. Stun with immense panache.",
+      "longDescription": "COOL FOR: ACROBATS. THIEVES. UNBEARABLE SHOW-OFFS.\n\nSavoir Faire urges you to be better than you are: it urges you to be disco. Slip by others in Samaran boxing style, then tumble out the back with unexpected acrobatics. It enables you to move with silent footsteps, to groove to a good beat, and to lift useful evidence off perps without them noticing. It also makes you a cooler cop, whose athletic flair will certainly impress the citizenry.\n\nAt high levels, Savoir Faire will make you the King of Cool – which is as much to say, the most stylish douchebag in Revachol. Nobody will see you until you’re ready to be seen; and then, they’ll get the full treatment, whether they want it or not. At low levels, however, you’ll be a bumbling, feckless cop unable to catch a pair of keys thrown by your partner without losing an eye.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 418,
+      "refId": "0x0100000A00000036",
+      "name": "Interfacing",
+      "shortDescription": "Master machines. Pick locks and pockets.",
+      "longDescription": "COOL FOR: MACHINISTS. TINKERERS. INSTRUMENT PLAYERS.\n\nInterfacing wants you to connect to machines: to use and improve them, because that makes you a better human organism. It enables you to understand interactions with machines – be that how to repair the motor of a Kineema motor carriage, how to analyze the way a suspect used a pen, or how to re-figure electrical circuits. It even lets you steal keys off a keyring without being noticed.\n\nAt high levels, Interfacing will isolate you from society – why bother with people when you can talk to machines? And why bother with things like money when you can just pocket that display sandwich? At low levels, however, you will have a crucial part of the world cut off from you. People use machines to commit crimes all the time – if you can’t understand how a crime was accomplished, how can you solve it?",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 419,
+      "refId": "0x0100000A0000003A",
+      "name": "Composure",
+      "shortDescription": "Straighten your back. Keep your poker face.",
+      "longDescription": "COOL FOR: CARD PLAYERS. MILITARY FETISHISTS. COOL PEOPLE.\n\nComposure wants you to not crack: or, at least, it wants you to not crack in front of other people. It enables you to put up a strong front. It keeps your emotions hidden from the world and helps you to read the body language of others – to sense the cracks in their own composure. As well, it keeps you looking good while you do it. You’ll rock that disco outfit a lot more if you don’t slouch.\n\nAt high levels, Composure makes you tuck your gut in and maintain a stern expression. Even lying in bed, late night when no one else can see you, you’ll have to keep it up. You’ll never be able to stop. With low Composure, though, you’ll always be the first to crack. Every cop’s got a point when all that fear and rage comes spilling out – and the ones who unleash it don’t stay on the force much longer. Perhaps worse still, you won’t even make the ranks of Fashion Police.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 420,
+      "refId": "0x0100000400000BC3",
+      "name": "Perception",
+      "shortDescription": "See, hear, and smell everything. Let no detail go unnoticed.",
+      "longDescription": "COOL FOR: FINE DETAIL DETECTIVES. SENSUALISTS. URBAN SCAVENGERS.\n\nPerception wants you to be open to the world – with eyes, ears, and nose working at full capacity. It enables you to take in what others don’t notice. The little wad of bills hid away in the sugar bowl; the odor of a perp, hiding beneath the floor boards; the gulp of a suspect, after claiming they’ve nothing to hide.\n\nAt high levels, Perception takes in every final detail of the physical world – enough to overwhelm all but the strongest mind. However, with low levels, you are going to miss out on everything. After all, you can’t arrest what you can’t see, hear, or smell.",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 421,
+      "refId": "0x0100000800000BAC",
+      "name": "Perception (Smell)",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 422,
+      "refId": "0x0100000800000BB0",
+      "name": "Perception (Hearing)",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 423,
+      "refId": "0x0100000800000BB8",
+      "name": "Perception (Taste)",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    },
+    {
+      "actorId": 424,
+      "refId": "0x0100000800000BBC",
+      "name": "Perception (Sight)",
+      "shortDescription": "",
+      "longDescription": "",
+      "isPlayer": false,
+      "isNPC": true,
+      "isFemale": false
+    }
+  ]
+}
