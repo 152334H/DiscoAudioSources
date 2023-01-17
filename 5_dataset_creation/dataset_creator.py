@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
 from shutil import copy
-from typing import List,Optional,Dict,Set,Any
+from typing import List,Optional,Dict,Set,Any,Callable
 from json import load
 from multiprocessing import Pool
 from functools import partial
@@ -28,37 +28,40 @@ class DatasetCreator:
 
     KEYS = ['fname', 'acticyID', 'alternativeIdx', 'text', 'actorID', 'actorName']
     @staticmethod
-    def filter(line: List[str], whitelist: Optional[Set[str]]) -> Optional[Dict[str,str]]:
+    def filter(line: List[str], whitelist: Optional[Set[str]], apply_filter: Optional[Callable]) -> Optional[Dict[str,str]]:
         fname, text, actorID = line[0], line[3], line[4]
         if whitelist and fname not in whitelist: return
         actor = df_actor.loc[int(actorID)-1]
         assert actor.actorId == int(actorID)
+        if not text.isascii(): return
+        if len(text) not in range(6,150): return # token bounds
         # TODO: handle asterisks
-        if '*' in text or not text.isascii(): return
         # TODO: fix e.g. "51 - 8 = 42"
-        text = text.replace(' --> ', ', ').replace(' -- ', ', ').replace(' - ', ', ').replace('=', 'equals').replace('&', 'and').replace('\n', '. ')
+        text = text.replace(' --> ', ', ').replace(' -- ', ', ').replace(' - ', ', ').replace('=', 'equals').replace('&', 'and').replace('\n', '. ').replace('*','')
         #
-        if actor.narratorType == 'Narrator':
-            args = {DatasetCreator.KEYS[i]:s for i,s in enumerate(line)}
-            args['actor'] = actor
-            args['text'] = text
-            return args
+        if actor.narratorType != 'Narrator': return
+        args = {DatasetCreator.KEYS[i]:s for i,s in enumerate(line)}
+        args['actor'] = actor
+        args['text'] = text
+        if apply_filter: return apply_filter(args)
+        return args
     @staticmethod
     def consider(create_line, s_args: Dict[str,Any], line: List[str]):
-        if (args := DatasetCreator.filter(line, s_args['whitelist'])):
+        if (args := DatasetCreator.filter(line, s_args['whitelist'], s_args['filter'])):
             fname,sample = args['fname'],s_args['sample']
             src,dst = s_args['wav_src']+fname, s_args['wav_dst']+fname
             if sample:
                 y,sr = librosa.load(src, sr=sample, mono=True)
                 soundfile.write(dst, y, sr)
             else:
-                #copy(src, dst) # very slow operation.
+                copy(src, dst) # very slow operation.
                 pass
             return create_line(args)
     def run(self, outfile='./metadata.txt'):
         CORES,BS = 8,1<<6
         NAMES = ['wav_src', 'wav_dst', 'sample', 'whitelist']
         s_args = {k:self.__dict__[k] for k in NAMES}
+        s_args['filter'] = self.apply_filter
         with open(self.csv_src) as csvfile: row_count = sum(1 for _ in csv.reader(csvfile))
         with open(self.csv_src) as csvfile, Pool(CORES) as pool, open(outfile, 'w') as json_file:
             reader = csv.reader(csvfile)
@@ -70,6 +73,7 @@ class DatasetCreator:
                  outfile='./MyNewDataset/metadata.txt',
                  wav_dst='./MyNewDataset/wavs/',
                  *,
+                 apply_filter=None,
                  split=False,
                  whitelist: Optional[set]=None,
                  sample: Optional[int]=None,
@@ -87,6 +91,7 @@ class DatasetCreator:
         self.create_line = create_line
         self.sample = sample
         self.whitelist = whitelist
+        self.apply_filter = apply_filter
         self.run(outfile)
         if split:
             filehead = outfile.split('.')

@@ -2,13 +2,17 @@ import os
 import csv
 import librosa
 import soundfile
+import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
 from shutil import copy
 from typing import List,Optional,Dict,Set,Any,Callable
+from json import load
 from multiprocessing import Pool
 from functools import partial
 
+with open('../1_initial_preproc/actors_by_narrator.json') as f:
+    df_actor = pd.json_normalize(load(f))
 
 def split_file(src, train, test, per=0.80):
     import random
@@ -25,11 +29,11 @@ class DatasetCreator:
     KEYS = ['fname', 'acticyID', 'alternativeIdx', 'text', 'actorID', 'actorName']
     @staticmethod
     def filter(line: List[str], whitelist: Optional[Set[str]], apply_filter: Optional[Callable]) -> Optional[Dict[str,str]]:
-        fname, text = line[0], line[3]
+        fname, text, actorID = line[0], line[3], line[4]
         if whitelist and fname not in whitelist: return
-        # TODO: handle asterisks
         if not text.isascii(): return
         if len(text) not in range(6,150): return # token bounds
+        # TODO: handle asterisks
         # TODO: fix e.g. "51 - 8 = 42"
         text = text.replace(' --> ', ', ').replace(' -- ', ', ').replace(' - ', ', ').replace('=', 'equals').replace('&', 'and').replace('\n', '. ').replace('*','')
         #

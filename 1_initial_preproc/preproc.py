@@ -9,18 +9,20 @@ from tqdm import tqdm
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
+
+### filepaths
 os.chdir('../0_original_data')
 JSON_DIALOG = './dialog.json'
 JSON_VOCLIPS = './VoiceOverClipsLibrary.json'
 WAV_AUDIOCLIPS_FOLDER = Path('./AudioClip')
 
-'''
-[{'AlternativeID': 0,                                        'AlternativeAssetName': 'alternative-0-Inland Empire-INVENTORY  SMALLEST CHURCH TAPE-20-0',                           'AlternativeClipPath': 'Assets\\Sounds/Dialogue/VOImports\\inventory\\inland empire\\Alternative\\alternative-0-Inland Empire-INVENTORY  SMALLEST CHURCH TAPE-20-0.wav',         'DoesNotNeedVO': False}]
-'''
 
+### List /AudioClip/ folder
 audio_assets = {wav_file.stem:wav_file for wav_file in WAV_AUDIOCLIPS_FOLDER.iterdir()}
 print('loaded audio clips folder')
 
+
+### Load VoiceOverClipsLibrary into clips{}
 clips = {}
 def aasset(k):
     v = audio_assets.get(k,None)
@@ -47,7 +49,8 @@ with open(JSON_VOCLIPS) as f:
     filtered.apply(parseVoiceOver,axis=1)
 print('parsed VoiceOverClipsLibrary')
 
-def show(cell): print(cell.to_string())
+
+### Load dialog.json into DataFrames
 def iterate(values):
     return pd.Series({x["title"]: x["value"] for x in values})
 
@@ -59,6 +62,8 @@ with open(JSON_DIALOG) as f:
     df_convos = pd.concat([df_convos_init, df_convos_init.pop('fields').apply(iterate)], axis=1)
 print('Read huge dialog json file')
 
+
+### Create processed csv file
 df_final = pd.DataFrame(columns=[
     'fname',
     'acticyID',
@@ -66,30 +71,25 @@ df_final = pd.DataFrame(columns=[
     'text',
     'actorID',
     'actorName'
-])
-try:
-    for aID,clip_ls in tqdm(clips.items(),desc='Building final csv...'):
-        dialogueEntries = df_convos[df_convos["Articy Id"] == aID]
-        if dialogueEntries.shape[0] == 0:
-            print(f'WARNING: unused audio clip(s) {clip_ls}')
-            continue
-        assert dialogueEntries.shape[0] == 1 # make sure there's only 1 entry
-        dialogueEntry = dialogueEntries.iloc[0]
-        actor = df_actors[df_actors.id == int(dialogueEntry.Actor)].iloc[0]
-        for i,path in enumerate(clip_ls):
-            text = dialogueEntry['Alternate%d'%i] if i else dialogueEntry['Dialogue Text']
-            df_final = df_final.append({
-                'fname': path.name,
-                'acticyID': aID,
-                'alternativeIdx': i,
-                'text': text,
-                'actorID': actor.id,
-                'actorName': actor.Name,
-            }, ignore_index=True)
-        # check for alternatives: df_convos.Alternate1.notnull()
-        # df_convos["Articy Id"]
-        # df_convos.iloc[0] # get first item
-    df_final.to_csv(r'AudioClipMetadata.csv', index=False)
-except Exception as e:
-    print(e)
-    import IPython; IPython.embed()
+]) # shape of the output csv
+
+for aID,clip_ls in tqdm(clips.items(),desc='Building final csv...'):
+    dialogueEntries = df_convos[df_convos["Articy Id"] == aID]
+    if dialogueEntries.shape[0] == 0:
+        print(f'WARNING: unused audio clip(s) {clip_ls}')
+        continue
+    assert dialogueEntries.shape[0] == 1 # make sure there's only 1 entry
+    dialogueEntry = dialogueEntries.iloc[0] # get the entry
+    actor = df_actors[df_actors.id == int(dialogueEntry.Actor)].iloc[0]
+    for i,path in enumerate(clip_ls):
+        text = dialogueEntry['Alternate%d'%i] if i else dialogueEntry['Dialogue Text']
+        df_final = df_final.append({
+            'fname': path.name,
+            'acticyID': aID,
+            'alternativeIdx': i,
+            'text': text,
+            'actorID': actor.id,
+            'actorName': actor.Name,
+        }, ignore_index=True)
+
+df_final.to_csv(r'../1_initial_preproc/AudioClipMetadata.csv', index=False)
