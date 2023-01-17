@@ -69,7 +69,7 @@
     "isNPC": true,
     "isFemale": true,
     "voice": null,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 7,
@@ -81,7 +81,7 @@
     "isNPC": true,
     "isFemale": false,
     "voice": null,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 8,
@@ -153,7 +153,7 @@
     "isNPC": true,
     "isFemale": true,
     "voice": null,
-    "narratorType": "Mixed"
+    "narratorType": "Acele"
   },
   {
     "actorId": 14,
@@ -165,7 +165,7 @@
     "isNPC": true,
     "isFemale": false,
     "voice": null,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 15,
@@ -781,7 +781,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": true,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 72,
@@ -845,7 +845,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": true,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 78,
@@ -942,7 +942,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": true,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 87,
@@ -1347,7 +1347,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": false,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 124,
@@ -3644,7 +3644,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": false,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 377,
@@ -3655,7 +3655,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": false,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 378,
@@ -3677,7 +3677,7 @@
     "isPlayer": false,
     "isNPC": true,
     "isFemale": false,
-    "narratorType": "Mixed"
+    "narratorType": "NPC"
   },
   {
     "actorId": 380,
