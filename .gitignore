@@ -1,0 +1,8 @@
+0_original_data/AudioClip/
+0_original_data/dialog.json
+0_original_data/disco-courier/
+1_initial_preproc/AudioClipMetadata.csv
+5_dataset_creation/FILTERED_NARRATOR_LINES_DONOTDELETE.txt
+5_dataset_creation/NarratorDataset/
+**/__pycache__
+final_dataset/
